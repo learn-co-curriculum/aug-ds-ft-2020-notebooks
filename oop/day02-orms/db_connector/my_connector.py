@@ -56,6 +56,7 @@ class MyDBConnector(object):
         df = pd.read_sql(query, self.conn)
         return df
 
+
     def load_query_as_df(self, query):
         df = pd.read_sql(query, self.conn)
         return df
@@ -79,6 +80,7 @@ class OrderDetailsConnector(MyDBConnector):
 
 class OrdersConnector(MyDBConnector):
     
+
     def __init__(self, db_path=None):
         super().__init__(db_path=db_path)
         self.table_name="orders"
