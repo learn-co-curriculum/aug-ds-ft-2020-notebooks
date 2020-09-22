@@ -3,3 +3,8 @@
 phase02-Project-Intro/
 phase02-Project-Intro/*
 phase02-Project-Intro/data/*
+**/.ipynb_checkpoints
+**/.ipynb_checkpoints/*
+*/.ipynb_checkpoints/
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*.ipynb
