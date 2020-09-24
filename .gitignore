@@ -8,3 +8,5 @@ phase02-Project-Intro/data/*
 */.ipynb_checkpoints/
 .ipynb_checkpoints
 */.ipynb_checkpoints/*.ipynb
+*/__pycache__/
+**/__pycache__/
