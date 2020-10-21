@@ -27,14 +27,17 @@ class RickAndMorty:
         endpoint = "character"
         final_endpoint = self.create_final_endpoint(base_url=self.base_url, 
                                                     endpoint=endpoint)
-        r = requests.get(final_endpoint, params=params)
+        r = requests.get(url=final_endpoint, params=params)
         return r.json()
 
 
     def find_all_characters_by_species(self, species="human"):
-        params = {"species":species}
-        r = self.find_character(params=params)
-        return r 
+        r = self.find_character(species=species)
+        return r
 
+
+    def find_all_characters_by_gender(self, gender="genderless"):
+        r = self.find_character(gender=gender)
+        return r
 
     
