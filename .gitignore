@@ -13,3 +13,7 @@ phase02-Project-Intro/data/*
 topic40-neural-networks/~$sect_40_bio_neural_networks_v2.pptx
 phase4_project/time-series/data/ive_minute_tick_bidask_API_12-09-20.csv
 phase4_project/time-series/data/ive_minute_tick_bidask_API.csv
+phase4_project/appendix_deep_nlp/checkpoints/.data-00000-of-00001
+phase4_project/appendix_deep_nlp/checkpoints/.index
+phase4_project/appendix_deep_nlp/checkpoints/checkpoint
+*.hdf5
