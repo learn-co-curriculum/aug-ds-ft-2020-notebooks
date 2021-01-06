@@ -17,3 +17,6 @@ phase4_project/appendix_deep_nlp/checkpoints/.data-00000-of-00001
 phase4_project/appendix_deep_nlp/checkpoints/.index
 phase4_project/appendix_deep_nlp/checkpoints/checkpoint
 *.hdf5
+capstone/deep_nlp_revisted_01062021/Participants_Data/Sample Submission.csv
+capstone/deep_nlp_revisted_01062021/Participants_Data/Test.csv
+capstone/deep_nlp_revisted_01062021/Participants_Data/Train.csv
